@@ -1,0 +1,22 @@
+<XDL>
+  <Synthesis>  
+      <Hardware>
+          <Component id="large_beaker"/>
+      </Hardware>
+
+      <Reagents>
+          <Reagent name="sugar"/>
+          <Reagent name="spice"/>
+          <Reagent name="everything nice"/>
+      </Reagents>
+
+      <Procedure>
+          <Add vessel="large_beaker" reagent="sugar"/>
+          <Add vessel="large_beaker" reagent="spice"/>
+          <Add vessel="large_beaker" reagent="everything nice"/>
+          <StartStir vessel="large_beaker"/>
+          <Stir vessel="large_beaker" time="2"/>
+          <StopStir vessel="large_beaker"/>
+      </Procedure>
+  </Synthesis>
+</XDL>

@@ -1,0 +1,20 @@
+<XDL>
+  <Synthesis>  
+      <Hardware>
+          <Component id="beaker"/>
+      </Hardware>
+
+      <Reagents>
+          <Reagent name="red cabbage soup"/>
+          <Reagent name="acetic acid"/>
+      </Reagents>
+
+      <Procedure>
+          <Add vessel="beaker" reagent="red cabbage soup" amount="30 g"/>
+          <Add vessel="beaker" reagent="acetic acid" amount="10 g"/>
+          <StartStir vessel="beaker"/>
+          <Stir vessel="beaker" time="10"/>
+          <StopStir vessel="beaker"/>
+      </Procedure>
+  </Synthesis>
+</XDL>

@@ -1,0 +1,21 @@
+<XDL>
+  <Synthesis>  
+      <Hardware>
+          <Component id="beaker" type="vessel"/>
+      </Hardware>
+
+      <Reagents>
+          <Reagent name="hot water"/>
+          <Reagent name="acacia honey"/>
+      </Reagents>
+
+      <Procedure>
+          <Add vessel="beaker" reagent="hot water" amount="200 g"/>
+          <Add vessel="beaker" reagent="acacia honey" amount="430 g"/>
+          <StartStir vessel="beaker"/>
+          <HeatChill vessel="beaker" temp="40" time="10"/>
+          <Stir vessel="beaker" time="10"/>
+          <StopStir vessel="beaker"/>
+      </Procedure>
+  </Synthesis>
+</XDL>

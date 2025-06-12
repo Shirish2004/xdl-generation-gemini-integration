@@ -1,0 +1,19 @@
+<XDL>
+  <Synthesis>  
+      <Hardware>
+          <Component id="large_beaker"/>
+      </Hardware>
+
+      <Reagents>
+          <Reagent name="black seal rum"/>
+          <Reagent name="ginger beer"/>
+          <Reagent name="lime wedges"/>
+      </Reagents>
+
+      <Procedure>
+          <Add vessel="large_beaker" reagent="black seal rum" amount="40g"/>
+          <Add vessel="large_beaker" reagent="lime wedges" amount="2"/>
+          <Add vessel="large_beaker" reagent="ginger beer" amount="150g"/>
+      </Procedure>
+  </Synthesis>
+</XDL>
