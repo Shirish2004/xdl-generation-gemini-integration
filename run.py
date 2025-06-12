@@ -1,8 +1,8 @@
 import os
 from google import genai
 from google.genai import types
-import textwrap  # Optional: for clean formatting
-from verify import verify_xdl  # Assuming your verify code is in verify.py
+import textwrap  
+from verify import verify_xdl  
 
 # Initialize Gemini client once
 #genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -103,7 +103,7 @@ def translate(input_xdl, verbose=False):
     if verbose:
         print(f"Final syntax validity: {correct_syntax}\n")
     return xdl
-experiment_dir = "/home/shirish/Phd/xdl-generation/experiments"  # Change this to your actual path
+experiment_dir = "/home/shirish/Phd/xdl-generation/experiments"  
 output_dir = os.path.join(experiment_dir, "outputs")
 os.makedirs(output_dir, exist_ok=True)
 
